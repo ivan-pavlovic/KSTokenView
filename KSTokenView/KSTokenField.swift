@@ -203,6 +203,7 @@ open class KSTokenField: UITextField {
         autocapitalizationType = UITextAutocapitalizationType.none
         contentVerticalAlignment = UIControlContentVerticalAlignment.top
         returnKeyType = UIReturnKeyType.done
+        keyboardType = .emailAddress
         text = KSTextEmpty
         clipsToBounds = true
         _state = .closed
